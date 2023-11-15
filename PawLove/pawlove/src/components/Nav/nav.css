@@ -1,0 +1,14 @@
+/* Custom styles for mobile-only links */
+.mobile-only-links {
+  display: flex; /* Aligns links in a row */
+  align-items: center; /* Centers links vertically */
+  width: 45%;
+  justify-content: space-around;
+}
+
+/* Hide on larger screens */
+@media (min-width: 992px) { /* Adjust to match Bootstrap's lg breakpoint */
+  .mobile-only-links {
+    display: none;
+  }
+}/*# sourceMappingURL=nav.css.map */
