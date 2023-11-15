@@ -1,18 +1,20 @@
 
-import './nav.css'; // Make sure this path is correct
+import './nav.css'; 
+import { Link } from 'react-router-dom';
+
 
 function Header() {
     return (
         <header>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
+                    <Link to= "./" className="navbar-brand" href="./hero">
                         <img src="https://res.cloudinary.com/dchzjr4bz/image/upload/v1700031389/paw-love-high-resolution-logo-transparent_qmfrgw.png" alt="Paw Love Logo" height="100" />
-                    </a>
+                    </Link>
 
                     
                     <div className="mobile-only-links d-lg-none">
-                        <a className="nav-link" href="#">Login</a>
+                        <a className="nav-link" href="./login">Login</a>
                         <a className="nav-link" href="#">Register</a>
                     </div>
 

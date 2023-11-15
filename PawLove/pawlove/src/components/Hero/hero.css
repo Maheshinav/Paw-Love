@@ -1,0 +1,14 @@
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white; /* White text */
+  padding: 10px; /* Some padding */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.carousel-caption h5 {
+  font-size: 1.2em; /* Adjust title size */
+}
+
+.carousel-caption p {
+  font-size: 1em; /* Adjust text size */
+}/*# sourceMappingURL=hero.css.map */
