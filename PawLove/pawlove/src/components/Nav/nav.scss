@@ -14,3 +14,18 @@
         display: none;
     }
 }
+/* Custom Link Styles */
+.custom-link {
+    color: #000000; /* Change to your preferred default color */
+    text-decoration: none; /* Removes underline */
+}
+
+.custom-link:hover,
+.custom-link:focus {
+    color: #000000; /* Change to your preferred hover color */
+    text-decoration: none; /* Keeps underline removed on hover */
+}
+
+.custom-link.active {
+    color: #65d7d7; /* Your active color */
+}

@@ -1,4 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+
 import { useState, useEffect } from "react";
 import "./hero.css";
 
@@ -50,7 +50,7 @@ function HeroSection() {
 							<h1>{slide.title}</h1>
 							<p>{slide.text}</p>
               {slide.isLast && (
-                                <a href="#" className="btn btn-primary pt-1 pb-1">Join Paw Love Network</a> // CTA button for the last slide
+                                <a href="#" className="btn btn-primary pt-1 pb-1">Join Paw Love Network</a> 
                             )}
 						</div>
 					</div>

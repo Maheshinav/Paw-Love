@@ -1,14 +1,14 @@
 .carousel-caption {
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  color: white; /* White text */
-  padding: 10px; /* Some padding */
-  border-radius: 5px; /* Rounded corners */
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .carousel-caption h5 {
-  font-size: 1.2em; /* Adjust title size */
+  font-size: 1.2em;
 }
 
 .carousel-caption p {
-  font-size: 1em; /* Adjust text size */
+  font-size: 1em;
 }/*# sourceMappingURL=hero.css.map */
