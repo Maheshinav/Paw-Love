@@ -1,0 +1,8 @@
+.login-container {
+    p a {
+        color: #ffdc01; // Your desired color
+        &:hover {
+            color: darken(#ffdc01, 10% !important); // Optional: Darken the color on hover for better UI
+        }
+    }
+}

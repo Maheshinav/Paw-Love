@@ -42,7 +42,7 @@ const handleLogout = async () => {
                                 <NavLink to="/login" className="custom-link" activeClassName="active">
                                     Login
                                 </NavLink>
-                                <NavLink to="/register" className="nav-link"activeClassName="active">
+                                <NavLink to="/register" className="custom-link" activeClassName="active">
                                     Register
                                 </NavLink>
                             </>

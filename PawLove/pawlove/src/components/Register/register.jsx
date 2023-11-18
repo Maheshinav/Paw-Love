@@ -24,7 +24,7 @@ function Register() {
 			await userDocRef.set({
 				username: username,
 			});
-  console.log('User registered and Firestore document set.');
+			console.log("User registered and Firestore document set.");
 			await firebase.auth().signOut();
 			navigate("/login"); // Redirect to login page after successful registration
 		} catch (error) {
@@ -42,10 +42,7 @@ function Register() {
 					<h2 className="mb-3">
 						<FaPaw /> Join Our Clowder <GiOppositeHearts />{" "}
 					</h2>
-					<p className="mb-4 text-muted">
-						Use your lovely paws to type in your details and join our furry
-						community!
-					</p>
+				<p className="mb-4 text-muted">Joining PawLove: Easier than waking a napping cat!</p>
 					<img
 						src="https://res.cloudinary.com/dchzjr4bz/image/upload/v1700212242/Cat_wallpaper-modified_tamwoe.png"
 						alt="Cat Wallpaper"

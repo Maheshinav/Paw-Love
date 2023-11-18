@@ -46,13 +46,13 @@ function HeroSection() {
 							className="d-block w-100"
 							alt={`Slide ${index}`}
 						/>
-						<div className="carousel-caption">
-							<h1>{slide.title}</h1>
-							<p>{slide.text}</p>
-              {slide.isLast && (
-                                <a href="#" className="btn btn-primary pt-1 pb-1">Join Paw Love Network</a> 
-                            )}
-						</div>
+					<div className="carousel-caption">
+    <h1>{slide.title}</h1>
+    <p>{slide.text}</p>
+    {slide.isLast && (
+        <a href="#" className="btn  pt-1 pb-1" style={{ backgroundColor: '#f139c8', color: '#ffdc01', outline: 'none'}}>Join Paw Love Network</a>
+    )}
+</div>
 					</div>
 				))}
 			</div>
